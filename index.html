@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Madara Spa - Premium wellness and relaxation center in Madaragama, Koulara, Sri Lanka. Experience luxury massages, aromatherapy, facials, and holistic treatments.">
+    <meta name="keywords" content="spa, wellness, massage, aromatherapy, facial, Sri Lanka, Madara Spa, relaxation, beauty">
+    <meta name="author" content="Janith Buddhika">
+    <meta property="og:title" content="Madara Spa - Relax, Refresh & Rejuvenate">
+    <meta property="og:description" content="Premium spa and wellness center in Sri Lanka offering world-class treatments.">
+    <meta property="og:type" content="website">
+    <title>Madara Spa | Premium Wellness & Relaxation Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">Madara Spa</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-text">Preparing your relaxation experience...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon">&#10022;</span>
+                <span class="logo-text">Madara Spa</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#booking" class="nav-link">Book Now</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">&#9728;</span>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-bg-image"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <span class="badge-star">&#10022;</span>
+                <span>Premium Wellness Destination</span>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up">
+                <span class="title-line">Welcome to</span>
+                <span class="title-line highlight">Madara Spa</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Relax, Refresh & Rejuvenate
+            </p>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                Experience the art of tranquility in the heart of Sri Lanka. 
+                Where ancient healing traditions meet modern luxury.
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                <a href="#booking" class="btn btn-primary">
+                    <span>Book Appointment</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#services" class="btn btn-secondary">
+                    <span>Explore Services</span>
+                </a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="800">
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">5000+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">25+</span>
+                    <span class="stat-label">Expert Therapists</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+        <div class="hero-decoration">
+            <div class="deco-circle"></div>
+            <div class="deco-circle"></div>
+            <div class="deco-circle"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">A Sanctuary of Serenity</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-wrapper" data-aos="fade-right">
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <div class="image-placeholder about-img-1">
+                                <div class="placeholder-content">
+                                    <span>Spa Interior</span>
+                                    <small>Luxury Treatment Room</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="exp-number">10+</span>
+                            <span class="exp-text">Years of<br>Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <div class="about-text">
+                        <h3>Discover the Essence of Wellness</h3>
+                        <p>Founded by <strong>Janith Buddhika</strong>, Madara Spa has been a beacon of tranquility in Madaragama, Koulara, Sri Lanka. Our philosophy blends ancient Ayurvedic traditions with contemporary wellness practices to create a holistic healing experience.</p>
+                        <p>Every detail of our spa has been thoughtfully designed to transport you from the stresses of daily life into a realm of pure relaxation. From the moment you step through our doors, you are enveloped in an atmosphere of calm, luxury, and personalized care.</p>
+                    </div>
+                    <div class="owner-profile">
+                        <div class="owner-avatar">
+                            <div class="avatar-placeholder">
+                                <span>JB</span>
+                            </div>
+                        </div>
+                        <div class="owner-info">
+                            <h4>Janith Buddhika</h4>
+                            <span>Founder & Wellness Director</span>
+                            <p>"Creating spaces where healing happens naturally is my life's passion."</p>
+                        </div>
+                    </div>
+                    <div class="mission-vision">
+                        <div class="mv-card">
+                            <div class="mv-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                            </div>
+                            <h4>Our Mission</h4>
+                            <p>To provide transformative wellness experiences that nurture the body, calm the mind, and uplift the spirit through authentic, personalized care.</p>
+                        </div>
+                        <div class="mv-card">
+                            <div class="mv-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5"/>
+                                    <path d="M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <h4>Our Vision</h4>
+                            <p>To be Sri Lanka's most trusted wellness destination, recognized globally for excellence in holistic healing and authentic spa experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Curated Wellness Experiences</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Each treatment is a journey designed to restore balance and harmony</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-image">
+                        <div class="image-placeholder service-img">
+                            <div class="service-icon-large">&#128134;</div>
+                        </div>
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">&#128134;</div>
+                        <h3>Full Body Massage</h3>
+                        <p>Our signature full-body massage combines Swedish, deep tissue, and traditional Sri Lankan techniques to release tension, improve circulation, and restore vitality.</p>
+                        <div class="service-meta">
+                            <span class="duration">&#9201; 90 min</span>
+                            <span class="price">From LKR 8,500</span>
+                        </div>
+                        <a href="#booking" class="service-link">Book Now &#8594;</a>
+                    </div>
+                </div>
+
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="service-image">
+                        <div class="image-placeholder service-img">
+                            <div class="service-icon-large">&#127807;</div>
+                        </div>
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">&#127807;</div>
+                        <h3>Aromatherapy</h3>
+                        <p>Immerse yourself in the healing power of essential oils. Our certified aromatherapists customize blends to address your specific emotional and physical needs.</p>
+                        <div class="service-meta">
+                            <span class="duration">&#9201; 75 min</span>
+                            <span class="price">From LKR 7,000</span>
+                        </div>
+                        <a href="#booking" class="service-link">Book Now &#8594;</a>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-image">
+                        <div class="image-placeholder service-img">
+                            <div class="service-icon-large">&#10024;</div>
+                        </div>
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">&#10024;</div>
+                        <h3>Facial Treatments</h3>
+                        <p>Rejuvenate your skin with our premium facial treatments using organic, locally-sourced ingredients. From anti-aging to deep hydration, we have the perfect facial for you.</p>
+                        <div class="service-meta">
+                            <span class="duration">&#9201; 60 min</span>
+                            <span class="price">From LKR 6,500</span>
+                        </div>
+                        <a href="#booking" class="service-link">Book Now &#8594;</a>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-image">
+                        <div class="image-placeholder service-img">
+                            <div class="service-icon-large">&#129494;</div>
+                        </div>
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">&#129494;</div>
+                        <h3>Body Scrub</h3>
+                        <p>Exfoliate and renew your skin with our luxurious body scrubs. Using natural sea salts, coconut oil, and aromatic herbs, we reveal your skin's natural radiance.</p>
+                        <div class="service-meta">
+                            <span class="duration">&#9201; 45 min</span>
+                            <span class="price">From LKR 5,500</span>
+                        </div>
+                        <a href="#booking" class="service-link">Book Now &#8594;</a>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-image">
+                        <div class="image-placeholder service-img">
+                            <div class="service-icon-large">&#127811;</div>
+                        </div>
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">&#127811;</div>
+                        <h3>Herbal Therapy</h3>
+                        <p>Experience authentic Sri Lankan herbal treatments passed down through generations. Warm herbal poultices and medicinal oils work deep into muscles and joints.</p>
+                        <div class="service-meta">
+                            <span class="duration">&#9201; 120 min</span>
+                            <span class="price">From LKR 12,000</span>
+                        </div>
+                        <a href="#booking" class="service-link">Book Now &#8594;</a>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-image">
+                        <div class="image-placeholder service-img">
+                            <div class="service-icon-large">&#127873;</div>
+                        </div>
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">&#127873;</div>
+                        <h3>Spa Packages</h3>
+                        <p>Indulge in our curated spa packages combining multiple treatments for the ultimate relaxation experience. Perfect for special occasions or a full day of self-care.</p>
+                        <div class="service-meta">
+                            <span class="duration">&#9201; 3-5 hours</span>
+                            <span class="price">From LKR 25,000</span>
+                        </div>
+                        <a href="#booking" class="service-link">Book Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Gallery</span>
+                <h2 class="section-title">A Visual Journey</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Glimpses of the Madara Spa experience</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large" data-aos="fade-up" data-aos-delay="0">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-img">
+                            <span>Treatment Room</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-zoom">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"/>
+                                    <path d="M21 21l-4.35-4.35"/>
+                                    <path d="M11 8v6M8 11h6"/>
+                                </svg>
+                            </div>
+                            <h4>Luxury Treatment Suite</h4>
+                            <p>Our flagship massage room with ambient lighting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-img">
+                            <span>Aromatherapy Setup</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-zoom">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"/>
+                                    <path d="M21 21l-4.35-4.35"/>
+                                    <path d="M11 8v6M8 11h6"/>
+                                </svg>
+                            </div>
+                            <h4>Aromatherapy Corner</h4>
+                            <p>Essential oils and herbal infusions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-img">
+                            <span>Relaxation Lounge</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-zoom">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"/>
+                                    <path d="M21 21l-4.35-4.35"/>
+                                    <path d="M11 8v6M8 11h6"/>
+                                </svg>
+                            </div>
+                            <h4>Relaxation Lounge</h4>
+                            <p>Pre-treatment calm space</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-img">
+                            <span>Herbal Preparations</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-zoom">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"/>
+                                    <path d="M21 21l-4.35-4.35"/>
+                                    <path d="M11 8v6M8 11h6"/>
+                                </svg>
+                            </div>
+                            <h4>Herbal Preparations</h4>
+                            <p>Traditional Sri Lankan ingredients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-img">
+                            <span>Facial Treatment</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-zoom">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"/>
+                                    <path d="M21 21l-4.35-4.35"/>
+                                    <path d="M11 8v6M8 11h6"/>
+                                </svg>
+                            </div>
+                            <h4>Facial Treatment Room</h4>
+                            <p>Advanced skincare technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item large" data-aos="fade-up" data-aos-delay="500">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-img">
+                            <span>Exterior View</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-zoom">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"/>
+                                    <path d="M21 21l-4.35-4.35"/>
+                                    <path d="M11 8v6M8 11h6"/>
+                                </svg>
+                            </div>
+                            <h4>Madara Spa Exterior</h4>
+                            <p>Surrounded by lush tropical gardens</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Why Choose Us</span>
+                <h2 class="section-title">The Madara Difference</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Experienced Therapists</h3>
+                    <p>Our team of 25+ certified therapists brings years of international training and local expertise. Each practitioner is skilled in multiple modalities and committed to your wellness journey.</p>
+                    <div class="feature-accent"></div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5"/>
+                                <path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Premium Products</h3>
+                    <p>We use only the finest organic and natural products, many sourced locally from Sri Lankan gardens. Our partnerships with luxury skincare brands ensure exceptional quality in every treatment.</p>
+                    <div class="feature-accent"></div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                <polyline points="9 22 9 12 15 12 15 22"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Relaxing Environment</h3>
+                    <p>Immerse yourself in our thoughtfully designed spaces featuring natural materials, soothing water features, and tropical gardens. Every element is curated to promote deep relaxation.</p>
+                    <div class="feature-accent"></div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Customer Satisfaction</h3>
+                    <p>With over 5,000 satisfied clients and a 4.9-star rating, our commitment to excellence speaks through our guests. We personalize every visit to exceed your expectations.</p>
+                    <div class="feature-accent"></div>
+                </div>
+            </div>
+            <div class="trust-badges" data-aos="fade-up">
+                <div class="trust-item">
+                    <span class="trust-number">4.9&#9733;</span>
+                    <span class="trust-label">Google Rating</span>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <span class="trust-number">100%</span>
+                    <span class="trust-label">Natural Products</span>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <span class="trust-number">24/7</span>
+                    <span class="trust-label">Online Booking</span>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <span class="trust-number">Certified</span>
+                    <span class="trust-label">Wellness Center</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonials-track">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-quote">&#8220;</div>
+                        <p class="testimonial-text">The aromatherapy session at Madara Spa was absolutely transformative. The therapist took time to understand my stress levels and customized the essential oil blend perfectly. I left feeling lighter than I have in months. This is truly Sri Lanka's hidden wellness gem.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>SK</span>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Kensington</h4>
+                                <span>London, UK</span>
+                            </div>
+                            <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">&#8220;</div>
+                        <p class="testimonial-text">I've visited spas across Asia and Europe, but Madara Spa stands out for its authentic approach. The herbal therapy using local ingredients was unlike anything I've experienced. Janith and his team have created something truly special here in Koulara.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>MR</span>
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Rodriguez</h4>
+                                <span>Barcelona, Spain</span>
+                            </div>
+                            <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">&#8220;</div>
+                        <p class="testimonial-text">I booked the full-day spa package for my anniversary and it exceeded every expectation. From the warm herbal tea on arrival to the final relaxation in the garden pavilion, every moment was pure bliss. The facial treatment left my skin glowing for weeks!</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>AP</span>
+                            </div>
+                            <div class="author-info">
+                                <h4>Amara Perera</h4>
+                                <span>Colombo, Sri Lanka</span>
+                            </div>
+                            <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">&#8220;</div>
+                        <p class="testimonial-text">As a wellness blogger, I'm particular about where I recommend. Madara Spa gets my highest endorsement. The attention to detail, the quality of products, and the genuine care from every staff member makes this place extraordinary. A must-visit in Sri Lanka!</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>LW</span>
+                            </div>
+                            <div class="author-info">
+                                <h4>Lisa Wang</h4>
+                                <span>Singapore</span>
+                            </div>
+                            <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-nav">
+                    <button class="testimonial-prev" id="testimonialPrev" aria-label="Previous testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                    </button>
+                    <div class="testimonials-dots" id="testimonialsDots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="testimonial-next" id="testimonialNext" aria-label="Next testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Book Now</span>
+                <h2 class="section-title">Reserve Your Experience</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Begin your journey to wellness today</p>
+            </div>
+            <div class="booking-grid">
+                <div class="booking-info" data-aos="fade-right">
+                    <div class="booking-card glass">
+                        <h3>Visit Us</h3>
+                        <div class="booking-detail">
+                            <div class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Location</h4>
+                                <p>Madaragama, Koulara<br>Sri Lanka</p>
+                            </div>
+                        </div>
+                        <div class="booking-detail">
+                            <div class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Opening Hours</h4>
+                                <p>Mon - Sat: 9:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="booking-detail">
+                            <div class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Phone</h4>
+                                <a href="tel:+9476 626 1351">+94 76 626 1351</a>
+                            </div>
+                        </div>
+                        <div class="booking-detail">
+                            <div class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Email</h4>
+                                <a href="mailto:hello@madaraspa.lk">hello@madaraspa.lk</a>
+                            </div>
+                        </div>
+                        <a href="tel:+94771234567" class="booking-phone">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            +94 77 123 4567
+                        </a>
+                    </div>
+                </div>
+                <div class="booking-form-wrapper" data-aos="fade-left">
+                    <form class="booking-form" id="bookingForm">
+                        <div class="form-header">
+                            <h3>Appointment Request</h3>
+                            <p>Fill in your details and we'll confirm shortly</p>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="bookingName">Full Name *</label>
+                                <input type="text" id="bookingName" name="name" required placeholder="Your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="bookingPhone">Phone Number *</label>
+                                <input type="tel" id="bookingPhone" name="phone" required placeholder="+94 77 123 4567">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingEmail">Email Address</label>
+                            <input type="email" id="bookingEmail" name="email" placeholder="your@email.com">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="bookingService">Select Service *</label>
+                                <select id="bookingService" name="service" required>
+                                    <option value="">Choose a service...</option>
+                                    <option value="full-body-massage">Full Body Massage</option>
+                                    <option value="aromatherapy">Aromatherapy</option>
+                                    <option value="facial">Facial Treatments</option>
+                                    <option value="body-scrub">Body Scrub</option>
+                                    <option value="herbal-therapy">Herbal Therapy</option>
+                                    <option value="spa-package">Spa Package</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="bookingDate">Preferred Date *</label>
+                                <input type="date" id="bookingDate" name="date" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingTime">Preferred Time</label>
+                            <select id="bookingTime" name="time">
+                                <option value="">Select time...</option>
+                                <option value="09:00">9:00 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="15:00">3:00 PM</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingMessage">Special Requests</label>
+                            <textarea id="bookingMessage" name="message" rows="3" placeholder="Any allergies, preferences, or special requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Request Appointment</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <h3>We'd Love to Hear From You</h3>
+                        <p>Whether you have questions about our treatments, want to plan a special event, or simply need directions to our sanctuary, our team is here to help.</p>
+                        <div class="contact-methods">
+                            <a href="https://maps.google.com/?q=Madaragama,Koulara,Sri+Lanka" target="_blank" class="contact-method">
+                                <div class="method-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Visit Us</h4>
+                                    <p>Madaragama, Koulara<br>Sri Lanka</p>
+                                </div>
+                            </a>
+                            <a href="tel:+94771234567" class="contact-method">
+                                <div class="method-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                    </svg>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Call Us</h4>
+                                    <p>+94 77 123 4567</p>
+                                </div>
+                            </a>
+                            <a href="mailto:hello@madaraspa.lk" class="contact-method">
+                                <div class="method-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Email Us</h4>
+                                    <p>hello@madaraspa.lk</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="WhatsApp">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="TripAdvisor">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22c-5.523 0-10-4.477-10-10S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-6h2v2h-2v-2zm0-10h2v8h-2V6z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map" data-aos="fade-left">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.0!2d80.0!3d7.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDAnMDAuMCJOIDgwwrAwMCcwMC4wIkU!5e0!3m2!1sen!2slk!4v1" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Madara Spa Location">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <span class="logo-icon">&#10022;</span>
+                        <span class="logo-text">Madara Spa</span>
+                    </a>
+                    <p>Your sanctuary of serenity in the heart of Sri Lanka. Experience authentic wellness traditions blended with modern luxury.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="WhatsApp">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Full Body Massage</a></li>
+                        <li><a href="#services">Aromatherapy</a></li>
+                        <li><a href="#services">Facial Treatments</a></li>
+                        <li><a href="#services">Body Scrub</a></li>
+                        <li><a href="#services">Spa Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><strong>Address:</strong><br>Madaragama, Koulara<br>Sri Lanka</p>
+                    <p><strong>Phone:</strong><br><a href="tel:+94 76 626 1351">+94 77 123 4567</a></p>
+                    <p><strong>Email:</strong><br><a href="mailto:JanithBuddhika@madaraspa.lk">hello@madaraspa.lk</a></p>
+                    <p><strong>Hours:</strong><br>Mon-Sat: 9AM - 8PM<br>Sun: 10AM - 6PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Madara Spa. All rights reserved. Designed with care by Janith Buddhika.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <span class="toast-icon">&#10003;</span>
+            <span class="toast-message">Message sent successfully!</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
